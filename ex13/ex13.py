@@ -1,4 +1,5 @@
 # -*- coding: utf8 -*-
+# http://learnpythonthehardway.org/book/ex13.html
 from sys import argv
 
 print("argv = " + str(argv))
