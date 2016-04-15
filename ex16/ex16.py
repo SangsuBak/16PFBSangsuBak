@@ -33,3 +33,4 @@ target.write("\n")
 
 print "And finally, we close it."
 target.close()
+# 여기에 있는 명령어들이 수행되면 새로운 파일이 생성됨.
