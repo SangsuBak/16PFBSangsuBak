@@ -15,6 +15,7 @@ target = open(filename, 'w')
 
 print "Truncating the file. Goodbye!"
 target.truncate()
+#truncate란 명령어는 파일안에 내용을 모두 지워지게 하는 것이다.
 
 print "Now I'm going to ask you for three lines."
 
