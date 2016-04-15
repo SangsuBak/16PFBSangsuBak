@@ -24,3 +24,5 @@ print "Alright, all done."
 
 out_file.close()
 in_file.close()
+
+# edit configurations에 test.txt와 new_file.txt 값을 입력해줘야 ex17.py파일이 실행된다.
