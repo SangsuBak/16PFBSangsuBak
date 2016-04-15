@@ -2,15 +2,15 @@
 # http://learnpythonthehardway.org/book/ex14.html
 from sys import argv
 
-script, user_name = argv
+script, Sangsu = argv
 prompt = '> '
 
-print "Hi %s, I'm the %s script." % (user_name, script)
+print "Hi %s, I'm the %s script." % (Sangsu, script)
 print "I'd like to ask you a few questions."
-print "Do you like me %s?" % user_name
+print "Do you like me %s?" % Sangsu
 likes = raw_input(prompt)
 
-print "Where do you live %s?" % user_name
+print "Where do you live %s?" % Sangsu
 lives = raw_input(prompt)
 
 print "What kind of computer do you have?"
