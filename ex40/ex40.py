@@ -14,11 +14,11 @@ class MyStuff(object):
     def __init__(self):
         self.tangerine = "And now a thousand years between"
 
-def apple(self):
+    def apple(self):
         print "I AM CLASSY APPLES!"
+        # and class MyStuff
 
 
-# and class MyStuff
 
 thing = MyStuff()
 thing.apple()
@@ -29,7 +29,7 @@ class Song(object):
     def __init__(self, lyrics):
         self.lyrics = lyrics
 
-def sing_me_a_song(self):
+    def sing_me_a_song(self):
         for line in self.lyrics:
             print line
 
