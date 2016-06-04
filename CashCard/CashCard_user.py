@@ -37,7 +37,7 @@ chk_bal("출금 후 잔고 확인", CashCard_module)
 
 # 또 다른 현금 카드를 만들수 있을까? 불러 들임
 # noinspection PyPep8
-import CashcCard as mySistersCard_module
+import CashCard as mySistersCard_module
 
 chk_bal("CashCard_module 잔액 확인", CashCard_module)
 chk_bal("mySistersCard_module 잔액 확인", mySistersCard_module)
